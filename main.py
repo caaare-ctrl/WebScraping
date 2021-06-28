@@ -2,7 +2,6 @@ from selenium import webdriver
 import csv
 import pandas as pd
 #contain a bunch of constant
-from selenium.webdriver.common.keys import Keys
 # it is shorter than using bs4 from import request -> make soup
 # bs4 is good for scraping html website but not good for site with js angular react...
 
@@ -36,5 +35,5 @@ driver.close()
 
 
 #
-# df = pd.read_csv("steam_most_played.csv")
-# print(df)
+df = pd.read_csv("steam_most_played.csv")
+print(df)
